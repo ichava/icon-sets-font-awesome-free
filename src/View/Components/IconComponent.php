@@ -22,9 +22,4 @@ class IconComponent extends BaseIconComponent
     {
         return IconsConstants::getVendorPackage();
     }
-
-    protected function getDefaultAttributes(): array
-    {
-        return [];
-    }
 }
